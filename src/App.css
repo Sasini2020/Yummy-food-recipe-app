@@ -1,0 +1,43 @@
+
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.search-bar{
+  margin-top: 50px;
+  width:50%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-family: 'Potta One';
+  border-top-left-radius: 15px;
+  border-bottom-left-radius:15px;
+
+}
+
+.search-button{
+  margin-top: 50px;
+  background: #7D3C98;
+  border: none;
+  padding:10px 20px;
+  color:white;
+  font-family: 'Potta One';
+  border-top-right-radius: 15px;
+  border-bottom-right-radius:15px;
+  cursor: pointer;
+
+}
+.recipes{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
